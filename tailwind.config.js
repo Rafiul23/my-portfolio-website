@@ -7,7 +7,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        'alpha': '#6603fc',
+        //'alpha': '#6603fc',
+        'alpha': '#f2673d',
+        
       },
     },
   },
