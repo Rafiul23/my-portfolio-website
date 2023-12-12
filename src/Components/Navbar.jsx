@@ -15,16 +15,18 @@ const Navbar = () => {
                 isPending ? "pending" : isActive ? "font-bold underline " : ""
             }
         >About</NavLink></li>
-        <li className="mr-4 text-alpha"><NavLink to='/projects'
+        
+        {/* <li className="mr-4 text-alpha"><NavLink to='/projects'
             className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? "font-bold underline " : ""
             }
-        >Projects</NavLink></li>
-        <li className="mr-4 text-alpha"><NavLink to='/education'
+        >Projects</NavLink></li> */}
+        {/* <li className="mr-4 text-alpha"><NavLink to='/education'
             className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? "font-bold underline " : ""
             }
-        >Education</NavLink></li>
+        >Education</NavLink></li> */}
+
         <li className="mr-4 text-alpha"><NavLink to='/contact'
             className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? "font-bold underline " : ""
