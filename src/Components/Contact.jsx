@@ -24,7 +24,7 @@ const Contact = () => {
             <SectionTitle
             title='Contact Me'
             ></SectionTitle>
-            <div className="bg-base-200 w-1/2 my-5 mx-auto p-4">
+            <div className="bg-base-200 w-full md:w-1/2 my-5 mx-auto p-4">
            <form  onSubmit={handleMessage}>
             <h2 className="text-alpha font-bold text-3xl ">Your Name: </h2>
                 <input type="text" placeholder="Your Name" name="name" className="border p-4 block my-4 w-full" required />
