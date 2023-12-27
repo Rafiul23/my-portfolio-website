@@ -13,7 +13,7 @@ const Banner = () => {
                 <div className='w-1/2 text-center '>
                     <h1 className="text-5xl text-alpha font-bold">Hi! I am Rafiul</h1>
                     <p className="py-6 text-3xl font-bold text-[#b895cf]">A front end focused MERN stack web developer.</p>
-                    <button className="btn text-white bg-alpha"><a href='../../public/myresume.pdf' download>Download my Resume</a></button>
+                    <button className="btn text-white bg-alpha"><a href='myresume.pdf' download>Download my Resume</a></button>
                 </div>
             </div>
         </div>
