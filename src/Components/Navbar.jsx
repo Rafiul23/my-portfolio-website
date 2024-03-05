@@ -36,7 +36,7 @@ const Navbar = () => {
     </>
 
     return (
-        <div className="navbar p-5  shadow-lg">
+        <div className="navbar p-5 bg-slate-800 shadow-lg">
             <div className="navbar-start">
                
                 <a className="text-alpha font-bold text-3xl">Md. Rafiul Islam</a>

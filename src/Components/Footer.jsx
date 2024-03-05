@@ -7,10 +7,9 @@ const Footer = () => {
         <footer className="footer footer-center p-10 bg-black text-primary-content">
             <aside>
 
-                <p className="font-bold text-3xl text-alpha">
+                <h2 className="font-bold text-3xl text-alpha">
                     Md. Rafiul Islam
-                </p>
-                <p>Copyright © 2024 - All right reserved</p>
+                </h2>
                 <p>I am available on</p>
             </aside>
             <nav>
@@ -19,6 +18,7 @@ const Footer = () => {
                     <a target="_blank" className="text-2xl hover:text-alpha" href="https://www.linkedin.com/in/md-rafiul-islam-645681112/"><FaLinkedin /></a>
                     <a target="_blank" className="text-2xl hover:text-alpha" href="https://github.com/rafiul23/"><FaGithub /></a>
                 </div>
+                <p className="mt-2">Copyright © 2024 - All right reserved</p>
             </nav>
         </footer>
     );
