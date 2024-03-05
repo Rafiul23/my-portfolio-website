@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 
 const Footer = () => {
     return (
-        <footer className="footer footer-center p-10 bg-black text-primary-content">
+        <footer className="footer footer-center p-10 bg-slate-800 text-primary-content">
             <aside>
 
                 <h2 className="font-bold text-3xl text-alpha">
