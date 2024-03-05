@@ -1,40 +1,27 @@
-import Swal from "sweetalert2";
 import SectionTitle from './SectionTitle';
-
+import contact from '../assets/contact.png';
 
 const Contact = () => {
-    const handleMessage = e =>{
-        e.preventDefault();
-        const name = e.target.name.value;
-        const message = e.target.message.value;
 
-        e.target.name.value = '';
-        e.target.message.value = '';
-
-        Swal.fire({
-            position: "center",
-            icon: "success",
-            title: "Your message is delivered",
-            showConfirmButton: false,
-            timer: 1500
-          });
-    }
     return (
         <div>
             <SectionTitle
-            title='Contact Me'
+                title='Contact Me'
             ></SectionTitle>
-            <div className="bg-base-200 w-full md:w-1/2 my-5 mx-auto p-4">
-           <form  onSubmit={handleMessage}>
-            <h2 className="text-alpha font-bold text-3xl ">Your Name: </h2>
-                <input type="text" placeholder="Your Name" name="name" className="border p-4 block my-4 w-full" required />
-                <br />
-                <h2 className="text-alpha font-bold text-3xl">Your Message: </h2>
-                <textarea name="message" id="message" placeholder="Your message" className="border p-4 block my-4 w-full" cols="30" rows="10"></textarea>
-
-                <button className="btn btn-block bg-alpha text-white">Submit</button>
-            </form>
-           </div>
+            <div className="hero min-h-screen bg-base-200">
+                <div className="hero-content flex-col lg:flex-row-reverse">
+                    <img src={contact} className="w-1/2 rounded-lg shadow-xl" />
+                    <div className='w-1/2 '>
+                        <h1 className="text-5xl pl-4 text-alpha font-bold">Contact with me!</h1>
+                        <div className='space-y-2 p-4 mt-2 font-semibold'>
+                        <p>Email: <span className='text-blue-600'>rislamshaon95@gmail.com</span></p>
+                        <p>Phone: <span className='text-blue-600'>01980114434</span></p>
+                        <p>Facebook: <a target='_blank' className='text-blue-600' href="https://www.facebook.com/rafiulislam.shaon.5">Rafiul Islam Shaon</a></p>
+                        <p>LinedIn: <a target='_blank' className='text-blue-600' href="https://www.linkedin.com/in/md-rafiul-islam-645681112/">Md. Rafiul Islam</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };
