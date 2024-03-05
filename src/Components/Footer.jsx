@@ -14,9 +14,9 @@ const Footer = () => {
             </aside>
             <nav>
                 <div className="grid grid-flow-col gap-4">
-                    <a className="text-2xl" href="https://www.facebook.com/rafiulislam.shaon.5"><FaFacebookF /></a>
-                    <a className="text-2xl" href="https://www.linkedin.com/in/md-rafiul-islam-645681112/"><FaLinkedin /></a>
-                    <a className="text-2xl" href="https://github.com/rafiul23/"><FaGithub /></a>
+                    <a target="_blank" className="text-2xl" href="https://www.facebook.com/rafiulislam.shaon.5"><FaFacebookF /></a>
+                    <a target="_blank" className="text-2xl" href="https://www.linkedin.com/in/md-rafiul-islam-645681112/"><FaLinkedin /></a>
+                    <a target="_blank" className="text-2xl" href="https://github.com/rafiul23/"><FaGithub /></a>
                 </div>
             </nav>
         </footer>

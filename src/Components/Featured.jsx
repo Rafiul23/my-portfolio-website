@@ -1,5 +1,7 @@
 import SectionTitle from "./SectionTitle";
-
+import aesthetica from '../assets/aesthetica.jpg';
+import twilight from '../assets/Twilight.jpg';
+import morningNews from '../assets/the-morning-post-news.jpg';
 
 
 const Featured = () => {
@@ -11,19 +13,21 @@ const Featured = () => {
             <div className="py-5 px-2 grid grid-cols-1 md:grid-cols-3 gap-4">
                 <div className="py-4">
                     <div className="card w-96 bg-base-100 shadow-xl">
-                        <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+                        <figure><img src={aesthetica} alt="Shoes" /></figure>
                         <div className="card-body">
-                            <h2 className="card-title">Shoes!</h2>
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <h2 className="text-2xl font-bold">Project Name: Aesthetica (A makeup brand website)</h2>
+                        
+                        <p>Project details: This project is about makeup brand website. There are several brands of makeup products. Each brand has at least four products. A user can add a product, can update a product's details, and can delete a product. He can add product to his cart collections. He can also delete his products from his cart collection.</p>
+                        <p className="font-bold">Used language: React, Tailwind, Mongodb, Express, Daisyui</p>
                             <div className="card-actions justify-end">
-                                <button className="btn btn-primary">Buy Now</button>
+                                <button className="btn btn-secondary"><a href="https://glittering-dragon-4a6433.netlify.app/">Click to View</a></button>
                             </div>
                         </div>
                     </div>
-                    <h2 className="text-2xl font-bold">Project Name: Aesthetica (A makeup brand website)</h2>
-                    <p className="font-bold">link: <a className="text-blue-600 underline" href="https://6533e1ead9bdce30108c9785--glittering-dragon-4a6433.netlify.app/">click here</a></p>
-                    <p>Project details: This project is about makeup brand website. There are several brands of makeup products. Each brand has at least four products. A user can add a product, can update a product's details, and can delete a product. He can add product to his cart collections. He can also delete his products from his cart collection.</p>
-                    <p className="font-bold">Used language: React, Tailwind, Mongodb, Express, Daisyui</p>
+                    
+                    
+                    
+                    
                 </div>
 
                 <div className="py-4">
