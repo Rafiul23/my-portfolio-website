@@ -41,31 +41,31 @@ const About = () => {
                     <figure><img src={html} className="w-[100px] h-[100px]" alt="html" /></figure>
                 </div>
                 <div className="card bg-base-100 shadow-xl border border-alpha p-2 hover:bg-base-200">
-                    <figure><img src={css} className="w-[100px] h-[100px]" alt="html" /></figure>
+                    <figure><img src={css} className="w-[100px] h-[100px]" alt="css" /></figure>
                 </div>
                 <div className="card bg-base-100 shadow-xl border border-alpha p-2 hover:bg-base-200">
-                    <figure><img src={js} className="w-[100px] h-[100px]" alt="html" /></figure>
+                    <figure><img src={js} className="w-[100px] h-[100px]" alt="js" /></figure>
                 </div>
                 <div className="card bg-base-100 shadow-xl border border-alpha p-2 hover:bg-base-200">
-                    <figure><img src={tailwind} className="w-[100px] h-[100px]" alt="html" /></figure>
+                    <figure><img src={tailwind} className="w-[100px] h-[100px]" alt="tailwind" /></figure>
                 </div>
                 <div className="card bg-base-100 shadow-xl border border-alpha p-2 hover:bg-base-200">
-                    <figure><img src={daisy} className="w-[100px] h-[100px]" alt="html" /></figure>
+                    <figure><img src={daisy} className="w-[100px] h-[100px]" alt="daisyui" /></figure>
                 </div>
                 <div className="card bg-base-100 shadow-xl border border-alpha p-2 hover:bg-base-200">
-                    <figure><img src={bootstrap} className="w-[100px] h-[100px]" alt="html" /></figure>
+                    <figure><img src={bootstrap} className="w-[100px] h-[100px]" alt="bootstrap" /></figure>
                 </div>
                 <div className="card bg-base-100 shadow-xl border border-alpha p-2 hover:bg-base-200">
-                    <figure><img src={react} className="w-[100px] h-[100px]" alt="html" /></figure>
+                    <figure><img src={react} className="w-[100px] h-[100px]" alt="react" /></figure>
                 </div>
                 <div className="card bg-base-100 shadow-xl border border-alpha p-2 hover:bg-base-200">
-                    <figure><img src={node} className="w-[100px] h-[100px]" alt="html" /></figure>
+                    <figure><img src={node} className="w-[100px] h-[100px]" alt="node" /></figure>
                 </div>
                 <div className="card bg-base-100 shadow-xl border border-alpha p-2 hover:bg-base-200">
-                    <figure><img src={mongodb} className="w-[100px] h-[100px]" alt="html" /></figure>
+                    <figure><img src={mongodb} className="w-[100px] h-[100px]" alt="mongodb" /></figure>
                 </div>
                 <div className="card bg-base-100 shadow-xl border border-alpha p-2 hover:bg-base-200">
-                    <figure><img src={express} className="w-[100px] h-[100px]" alt="html" /></figure>
+                    <figure><img src={express} className="w-[100px] h-[100px]" alt="express" /></figure>
                 </div>
             </div>
             
