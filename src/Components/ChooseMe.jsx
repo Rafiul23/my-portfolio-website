@@ -1,23 +1,35 @@
 import SectionTitle from "./SectionTitle";
-
+import chooseme from '../assets/chooseme.png';
 
 const ChooseMe = () => {
     return (
-        <div>
+        <div className="mt-5">
             <SectionTitle
-            title='Why Choose Me'
+                title='Why Choose Me'
             ></SectionTitle>
 
-            <ul className="font-bold space-y-3 text-2xl py-4">
-                <li className="bg-alpha text-white pl-2">Proficient in HTML5, CSS3, JavaScript (ES6+)</li>
-                <li className="text-alpha">Proficient in CSS framework like Tailwind css and it's component library Daisyui</li>
-                <li className="bg-alpha text-white pl-2">Proficient in front-end framework like React</li>
-                <li className="text-alpha">Responsive web design and mobile optimization</li>
-                <li className="bg-alpha text-white pl-2">Version control with Git/GitHub</li>
-                <li className="text-alpha">Familiarity with RESTful APIs and JSON</li>
-                <li className="bg-alpha text-white pl-2">Have primary knowledge on Mongodb and Express js.</li>
-                
-            </ul>
+
+            <div className="hero min-h-screen bg-base-100 border border-alpha rounded-lg">
+                <div className="hero-content flex-col lg:flex-row">
+                    <img src={chooseme} className="w-1/2 rounded-lg " />
+                    <div className="p-4 w-1/2">
+                        
+                        <ul className="text-alpha space-y-3 text-lg py-4 list-disc">
+                            <li className="">Proficient in HTML5, CSS3, JavaScript (ES6+)</li>
+                            <li className="">Proficient in CSS framework like Tailwind css and it's component library Daisyui</li>
+                            <li className="">Proficient in front-end framework like React</li>
+                            <li className="">Responsive web design and mobile optimization</li>
+                            <li className="">Version control with Git/GitHub</li>
+                            <li className="">Familiarity with RESTful APIs and JSON</li>
+                            <li className="">Have primary knowledge on Mongodb and Express js.</li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+
         </div>
     );
 };
