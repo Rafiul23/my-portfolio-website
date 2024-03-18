@@ -27,7 +27,7 @@ const Navbar = () => {
             }
         >Education</NavLink></li> */}
 
-        <li className="mr-4 text-alpha"><NavLink to='/contact'
+        <li className=" text-alpha"><NavLink to='/contact'
             className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? "font-bold underline " : ""
             }
@@ -39,7 +39,7 @@ const Navbar = () => {
         <div className="navbar p-5 bg-slate-800 shadow-lg">
             <div className="navbar-start">
                
-                <a className="text-alpha font-bold text-3xl">Md. Rafiul Islam</a>
+                <a className="text-alpha font-bold lg:text-3xl md:text-xl text-lg">Md. Rafiul Islam</a>
             </div>
             <div className="navbar-center hidden lg:flex">
 
