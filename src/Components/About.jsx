@@ -19,15 +19,15 @@ const About = () => {
             ></SectionTitle>
 
             <div className="hero min-h-screen bg-base-200">
-                <div className="hero-content flex-col lg:flex-row">
+                <div className="hero-content flex-col md:flex-row">
                     <div className="">
-                        <img src={myPic} className="w-[400px] h-[400px] rounded-full shadow-2xl" />
+                        <img src={myPic} className="lg:w-[400px] lg:h-[400px] md:w-[300px] md:h-[300px] w-[200px] h-[200px] rounded-full shadow-2xl" />
                     </div>
-                    <div className="w-1/2 p-4">
-                        <h1 className="text-5xl text-alpha font-bold">Name: Md. Rafiul Islam</h1>
-                        <p className="text-xl p-2 text-alpha">Objective: To work as a React developer in any foreign or local company. </p>
-                        <p className="text-xl p-2">Bio: I am a front end focused MERN stack web developer. I have learned HTML, CSS, javascript, Tailwind css with Daisyui, and React. Currently, I am learning back end development.</p>
-                        <p className="text-alpha p-2 font-semibold">Education: Completed BSc. in Civil Engineering from Military Institute of science and Technology.</p>
+                    <div className="md:w-1/2 w-full p-4 space-y-2">
+                        <h1 className="lg:text-5xl md:text-3xl text-xl text-alpha font-bold">Name: Md. Rafiul Islam</h1>
+                        <p className="text-xl  text-alpha">Objective: To work as a Front End Developer in any foreign or local company. </p>
+                        <p className="text-xl">Bio: I am a front end focused MERN stack web developer. I have learned HTML, CSS, Javascript, Tailwind CSS, Daisyui, and React for front end. I have learned Mongodb and Express for back end development. Recently I have learned TypeScript and took part in a team project.</p>
+                        <p className="text-alpha  font-semibold">Education: Completed BSc. in Civil Engineering from Military Institute of science and Technology.</p>
                     </div>
                 </div>
             </div>
