@@ -31,7 +31,7 @@ const Navbar = () => {
             className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? "font-bold underline " : ""
             }
-        >Contact Me</NavLink></li>
+        >Contact</NavLink></li>
 
     </>
 
