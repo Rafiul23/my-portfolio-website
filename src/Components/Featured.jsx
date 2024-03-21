@@ -15,7 +15,7 @@ const Featured = () => {
                     <div className="card bg-base-100 shadow-xl">
                         <figure><img src={aesthetica} alt="websitecard" /></figure>
                         <div className="card-body">
-                            <h2 className="text-2xl font-bold">Project Name: Aesthetica (A makeup brand website)</h2>
+                            <h2 className="text-2xl font-bold">Project: Aesthetica (A makeup brand website)</h2>
 
                             <p>Project Details: This project is about makeup brand website. There are several brands of makeup products. Each brand has at least four products. A user can add a product, can update a product's details, and can delete a product. He can add product to his cart collections. He can also delete his products from his cart collection.</p>
                             <p className="font-bold">Used Technologies: React, Tailwind, Mongodb, Express, Daisyui</p>

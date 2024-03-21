@@ -10,7 +10,7 @@ const ChooseMe = () => {
 
 
             <div className="hero min-h-screen bg-gradient-to-r from-slate-700 to-slate-800 border border-alpha rounded-lg">
-                <div className="hero-content flex-col lg:flex-row">
+                <div className="hero-content flex-col md:flex-row">
                     <img src={chooseme} className="md:w-1/2 w-full rounded-full " />
                     <div className="p-4 md:w-1/2 w-full">
                         

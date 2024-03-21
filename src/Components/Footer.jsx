@@ -7,7 +7,7 @@ const Footer = () => {
         <footer className="footer footer-center p-10 bg-slate-800 text-primary-content">
             <aside>
 
-                <h2 className="font-bold text-3xl text-alpha">
+                <h2 className="font-bold md:text-3xl text-xl text-alpha">
                     Md. Rafiul Islam
                 </h2>
                 <p>I am available on</p>
