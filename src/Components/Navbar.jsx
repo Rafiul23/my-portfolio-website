@@ -1,20 +1,28 @@
 import { NavLink } from "react-router-dom";
-
+import {motion} from 'framer-motion';
 
 const Navbar = () => {
 
     const navlinks = <>
 
-        <li className="mr-4 text-alpha"><NavLink to='/'
+        <motion.li
+        initial={{x: -100, opacity: 0}}
+        whileInView={{x: 0, opacity:1}}
+        transition={{delay: 0.3}}
+        className="mr-4 text-alpha"><NavLink to='/'
             className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? "font-bold underline " : ""
             }
-        >Home</NavLink></li>
-        <li className="mr-4 text-alpha"><NavLink to='/about'
+        >Home</NavLink></motion.li>
+        <motion.li 
+        initial={{x: -100, opacity: 0}}
+        whileInView={{x: 0, opacity:1}}
+        transition={{delay: 0.3}}
+        className="mr-4 text-alpha"><NavLink to='/about'
             className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? "font-bold underline " : ""
             }
-        >About</NavLink></li>
+        >About</NavLink></motion.li>
         
         {/* <li className="mr-4 text-alpha"><NavLink to='/projects'
             className={({ isActive, isPending }) =>
@@ -27,11 +35,15 @@ const Navbar = () => {
             }
         >Education</NavLink></li> */}
 
-        <li className=" text-alpha"><NavLink to='/contact'
+        <motion.li 
+        initial={{x: -100, opacity: 0}}
+        whileInView={{x: 0, opacity:1}}
+        transition={{delay: 0.3}}
+        className=" text-alpha"><NavLink to='/contact'
             className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? "font-bold underline " : ""
             }
-        >Contact</NavLink></li>
+        >Contact</NavLink></motion.li>
 
     </>
 
@@ -39,7 +51,11 @@ const Navbar = () => {
         <div className="navbar p-5 bg-slate-800 shadow-lg">
             <div className="navbar-start">
                
-                <a className="text-alpha font-bold lg:text-3xl md:text-xl text-lg">Md. Rafiul Islam</a>
+                <motion.a
+                initial={{x: -100, opacity: 0}}
+                whileInView={{x: 0, opacity:1}}
+                transition={{delay: 0.3}}
+                className="text-alpha font-bold lg:text-3xl md:text-xl text-lg">Md. Rafiul Islam</motion.a>
             </div>
             <div className="navbar-center hidden lg:flex">
 
