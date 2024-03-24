@@ -5,7 +5,13 @@ const TechCard = ({ img, title, description }) => {
         <motion.div
             initial={{ x: -50, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
-            transition={{ delay: 0.3 }}
+            transition={{
+                delay: 0.3,
+                x: { type: 'spring', stiffness: 60 },
+                opacity: { duration: 1 },
+                ease: 'easeIn',
+                duration: 1
+            }}
             className="card bg-base-100 shadow-xl">
             <figure><img src={img} className='w-[100px] h-[100px] p-2' alt="Shoes" /></figure>
             <div className="card-body text-center">

@@ -15,12 +15,24 @@ const ChooseMe = () => {
                     <motion.img 
                     initial={{x: -100, opacity: 0}}
                     whileInView={{x: 0, opacity:1}}
-                    transition={{delay: 0.3}}
+                    transition={{
+                        delay: 0.3,
+                        x: { type: 'spring', stiffness: 60 },
+                        opacity: { duration: 1 },
+                        ease: 'easeIn',
+                        duration: 1
+                    }}
                     src={chooseme} className="md:w-1/2 w-full rounded-full " />
                     <motion.div 
                     initial={{x: 100, opacity: 0}}
                     whileInView={{x: 0, opacity:1}}
-                    transition={{delay: 0.3}}
+                    transition={{
+                        delay: 0.3,
+                        x: { type: 'spring', stiffness: 60 },
+                        opacity: { duration: 1 },
+                        ease: 'easeIn',
+                        duration: 1
+                    }}
                     className="p-4 md:w-1/2 w-full">
                         
                         <ul className="text-alpha font-semibold space-y-3 text-lg py-4 list-disc">

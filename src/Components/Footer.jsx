@@ -9,7 +9,13 @@ const Footer = () => {
             <motion.aside
             initial={{x: -100, scale: 0}}
             whileInView={{x: 0, scale:1}}
-            transition={{delay: 0.2}}
+            transition={{
+                delay: 0.3,
+                x: { type: 'spring', stiffness: 60 },
+                opacity: { duration: 1 },
+                ease: 'easeIn',
+                duration: 1
+            }}
             >
 
                 <h2 className="font-bold md:text-3xl text-xl text-alpha">
@@ -20,7 +26,13 @@ const Footer = () => {
             <motion.nav
             initial={{x: 100, scale: 0}}
             whileInView={{x: 0, scale:1}}
-            transition={{delay: 0.2}}
+            transition={{
+                delay: 0.3,
+                x: { type: 'spring', stiffness: 60 },
+                opacity: { duration: 1 },
+                ease: 'easeIn',
+                duration: 1
+            }}
             >
                 <div className="grid grid-cols-3 gap-3">
                     <a target="_blank" className="text-2xl hover:text-alpha" href="https://www.facebook.com/rafiulislam.shaon.5"><FaFacebookF /></a>

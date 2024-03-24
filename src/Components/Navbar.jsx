@@ -8,7 +8,13 @@ const Navbar = () => {
         <motion.li
         initial={{x: -100, opacity: 0}}
         whileInView={{x: 0, opacity:1}}
-        transition={{delay: 0.3}}
+        transition={{
+            delay: 0.3,
+            x: { type: 'spring', stiffness: 60 },
+            opacity: { duration: 1 },
+            ease: 'easeIn',
+            duration: 1
+        }}
         className="mr-4 text-alpha"><NavLink to='/'
             className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? "font-bold underline " : ""
@@ -17,7 +23,13 @@ const Navbar = () => {
         <motion.li 
         initial={{x: -100, opacity: 0}}
         whileInView={{x: 0, opacity:1}}
-        transition={{delay: 0.3}}
+        transition={{
+            delay: 0.3,
+            x: { type: 'spring', stiffness: 60 },
+            opacity: { duration: 1 },
+            ease: 'easeIn',
+            duration: 1
+        }}
         className="mr-4 text-alpha"><NavLink to='/about'
             className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? "font-bold underline " : ""
@@ -38,7 +50,13 @@ const Navbar = () => {
         <motion.li 
         initial={{x: -100, opacity: 0}}
         whileInView={{x: 0, opacity:1}}
-        transition={{delay: 0.3}}
+        transition={{
+            delay: 0.3,
+            x: { type: 'spring', stiffness: 60 },
+            opacity: { duration: 1 },
+            ease: 'easeIn',
+            duration: 1
+        }}
         className=" text-alpha"><NavLink to='/contact'
             className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? "font-bold underline " : ""
@@ -54,7 +72,13 @@ const Navbar = () => {
                 <motion.a
                 initial={{x: -100, opacity: 0}}
                 whileInView={{x: 0, opacity:1}}
-                transition={{delay: 0.3}}
+                transition={{
+                    delay: 0.3,
+                    x: { type: 'spring', stiffness: 60 },
+                    opacity: { duration: 1 },
+                    ease: 'easeIn',
+                    duration: 1
+                }}
                 className="text-alpha font-bold lg:text-3xl md:text-xl text-lg">Md. Rafiul Islam</motion.a>
             </div>
             <div className="navbar-center hidden lg:flex">

@@ -15,7 +15,13 @@ const Featured = () => {
                 <motion.div
                 initial={{x: -100, opacity: 0}}
                 whileInView={{x: 0, opacity:1}}
-                transition={{delay: 0.3}}
+                transition={{
+                    delay: 0.3,
+                    x: { type: 'spring', stiffness: 60 },
+                    opacity: { duration: 1 },
+                    ease: 'easeIn',
+                    duration: 1
+                }}
                 className="card bg-base-100 shadow-xl">
                     <figure><img src={aesthetica} alt="websitecard" /></figure>
                     <div className="card-body">
@@ -28,7 +34,13 @@ const Featured = () => {
                             initial={{ scale: 0}}
                             whileInView={{ scale:1}}
                             whileHover={{ scale: 1.2}}
-                            transition={{delay: 0.2}}
+                            transition={{
+                                delay: 0.3,
+                                x: { type: 'spring', stiffness: 60 },
+                                opacity: { duration: 1 },
+                                ease: 'easeIn',
+                                duration: 1
+                            }}
                             className="btn btn-secondary"><a href="https://glittering-dragon-4a6433.netlify.app/">Click to Visit</a></motion.button>
                         </div>
                     </div>
@@ -38,7 +50,13 @@ const Featured = () => {
                 <motion.div 
                 initial={{x: -100, opacity: 0}}
                 whileInView={{x: 0, opacity:1}}
-                transition={{delay: 0.3}}
+                transition={{
+                    delay: 0.3,
+                    x: { type: 'spring', stiffness: 60 },
+                    opacity: { duration: 1 },
+                    ease: 'easeIn',
+                    duration: 1
+                }}
                 className="card bg-base-100 shadow-xl">
                     <figure><img src={twilight} alt="website" /></figure>
                     <div className="card-body">
@@ -50,7 +68,13 @@ const Featured = () => {
                             initial={{ scale: 0}}
                             whileInView={{ scale:1}}
                             whileHover={{ scale: 1.2}}
-                            transition={{delay: 0.2}}
+                            transition={{
+                                delay: 0.3,
+                                x: { type: 'spring', stiffness: 60 },
+                                opacity: { duration: 1 },
+                                ease: 'easeIn',
+                                duration: 1
+                            }}
                             className="btn btn-secondary"><a href="https://heroic-semolina-7b2e02.netlify.app/">Click to Visit</a></motion.button>
                         </div>
                     </div>
@@ -59,7 +83,13 @@ const Featured = () => {
                 <motion.div 
                 initial={{x: -100, opacity: 0}}
                 whileInView={{x: 0, opacity:1}}
-                transition={{delay: 0.3}}
+                transition={{
+                    delay: 0.3,
+                    x: { type: 'spring', stiffness: 60 },
+                    opacity: { duration: 1 },
+                    ease: 'easeIn',
+                    duration: 1
+                }}
                 className="card bg-base-100 shadow-xl">
                     <figure><img src={morningNews} alt="website" /></figure>
                     <div className="card-body">
@@ -71,7 +101,13 @@ const Featured = () => {
                             initial={{ scale: 0}}
                             whileInView={{ scale:1}}
                             whileHover={{ scale: 1.2}}
-                            transition={{delay: 0.2}}
+                            transition={{
+                                delay: 0.3,
+                                x: { type: 'spring', stiffness: 60 },
+                                opacity: { duration: 1 },
+                                ease: 'easeIn',
+                                duration: 1
+                            }}
                             className="btn btn-secondary"><a href="https://the-morning-posts.surge.sh/">Click to Visit</a></motion.button>
                         </div>
                     </div>
