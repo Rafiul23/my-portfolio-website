@@ -10,6 +10,8 @@ import react from '../assets/react-logo.png';
 import mongodb from '../assets/png-transparent-mongodb-plain-wordmark-logo-icon.png';
 import express from '../assets/express.png';
 import node from '../assets/node-js-icon-454x512-nztofx17.png';
+import next from '../assets/next.jpg';
+import ts from '../assets/ts.png';
 import { motion } from 'framer-motion';
 const About = () => {
     return (
@@ -46,7 +48,7 @@ const About = () => {
                         className="md:w-1/2 w-full p-4 space-y-2">
                         <h1 className="lg:text-5xl md:text-3xl text-xl text-alpha font-bold">Name: Md. Rafiul Islam</h1>
                         <p className="text-xl  text-alpha">Objective: To work as a Front End Developer in any foreign or local company. </p>
-                        <p className="text-xl">Bio: I am a front end focused MERN stack web developer. I have learned HTML, CSS, Javascript, Tailwind CSS, Daisyui, and React for front end. I have learned Mongodb and Express for back end development. Recently I have learned TypeScript and took part in a team project.</p>
+                        <p className="text-xl">Bio: I am a MERN stack web developer. I have learned HTML, CSS, Javascript, Tailwind CSS, Daisyui, React and Next for front end. I have learned Mongodb and Express for back end development.</p>
                         <p className="text-alpha  font-semibold">Education: Completed BSc. in Civil Engineering from Military Institute of science and Technology.</p>
                     </motion.div>
                 </div>
@@ -56,7 +58,7 @@ const About = () => {
                 title='My Skills'
             ></SectionTitle>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-4">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-4 my-10">
                 <div className="card bg-base-100 shadow-xl border border-alpha p-2 hover:bg-base-200">
                     <figure><motion.img
                         initial={{ x: -50, opacity: 0 }}
@@ -186,6 +188,32 @@ const About = () => {
                             duration: 1
                         }}
                         src={express} className="w-[100px] h-[100px]" alt="express" /></figure>
+                </div>
+                <div className="card bg-base-100 shadow-xl border border-alpha p-2 hover:bg-base-200">
+                    <figure><motion.img
+                        initial={{ x: -50, opacity: 0 }}
+                        whileInView={{ x: 0, opacity: 1 }}
+                        transition={{
+                            delay: 0.3,
+                            x: { type: 'spring', stiffness: 60 },
+                            opacity: { duration: 1 },
+                            ease: 'easeIn',
+                            duration: 1
+                        }}
+                        src={next} className="w-[100px] h-[100px]" alt="next" /></figure>
+                </div>
+                <div className="card bg-base-100 shadow-xl border border-alpha p-2 hover:bg-base-200">
+                    <figure><motion.img
+                        initial={{ x: -50, opacity: 0 }}
+                        whileInView={{ x: 0, opacity: 1 }}
+                        transition={{
+                            delay: 0.3,
+                            x: { type: 'spring', stiffness: 60 },
+                            opacity: { duration: 1 },
+                            ease: 'easeIn',
+                            duration: 1
+                        }}
+                        src={ts} className="w-[100px] h-[100px]" alt="typescript" /></figure>
                 </div>
             </div>
 
