@@ -1,12 +1,12 @@
 import SectionTitle from "./SectionTitle";
-import aesthetica from '../assets/aesthetica.jpg';
-import twilight from '../assets/Twilight.jpg';
+import jobHunter from '../assets/job-hunter.jpg';
+import glowHeaven from '../assets/glow-heaven.jpg';
 import morningNews from '../assets/the-morning-post-news.jpg';
 import { motion } from 'framer-motion';
 
 const Featured = () => {
     return (
-        <div>
+        <div className="my-10 md:my-20">
             <SectionTitle
                 title='My Featured Projects'
             ></SectionTitle>
@@ -23,12 +23,12 @@ const Featured = () => {
                     duration: 1
                 }}
                 className="card bg-base-100 shadow-xl">
-                    <figure><img src={aesthetica} alt="websitecard" /></figure>
+                    <figure><img className="w-full h-[200px]" src={jobHunter} alt="websitecard" /></figure>
                     <div className="card-body">
-                        <h2 className="text-2xl font-bold">Project Name: Aesthetica (A makeup brand website)</h2>
+                        <h2 className="text-2xl font-bold">Project Name: Job Hunter (An online job portal)</h2>
 
-                        <p>Project Details: This project is about makeup brand website. There are several brands of makeup products. Each brand has at least four products. A user can add a product, can update a product's details, and can delete a product. He can add product to his cart collections. He can also delete his products from his cart collection.</p>
-                        <p className="font-bold">Used Technologies: React, Tailwind, Mongodb, Express, Daisyui</p>
+                        <p>Project Details: Managed 20+ job categories with advanced search and filtering options. Enabled resume submissions and role-based access control for users. Built admin tools for job and user role management using NextAuth.</p>
+                        <p className="font-bold">Used Technologies: Next js, Tailwind, Daisyui, Next Auth, Mongodb, Express.</p>
                         <div className="card-actions justify-end">
                             <motion.button 
                             initial={{ scale: 0}}
@@ -41,7 +41,7 @@ const Featured = () => {
                                 ease: 'easeIn',
                                 duration: 1
                             }}
-                            className="btn btn-secondary"><a href="https://glittering-dragon-4a6433.netlify.app/">Click to Visit</a></motion.button>
+                            className="btn btn-secondary"><a href="https://job-hunter-globe.vercel.app/">Click to Visit</a></motion.button>
                         </div>
                     </div>
                 </motion.div>
@@ -58,11 +58,11 @@ const Featured = () => {
                     duration: 1
                 }}
                 className="card bg-base-100 shadow-xl">
-                    <figure><img src={twilight} alt="website" /></figure>
+                    <figure><img className="w-full h-[200px]" src={glowHeaven} alt="website" /></figure>
                     <div className="card-body">
-                        <h2 className="text-2xl font-bold">Project Name: Twilight (An event management website)</h2>
-                        <p>Project Details: I implemented firebase authentication system in this website.One can register in this website by email and password or can signin with google.The name and picture of user will be shown on navbar.User also can logout from the website. Users can contact with the owner of this website through contact form.</p>
-                        <p className="font-bold">Used Technologies: React, Tailwind, Daisyui, Emailjs, Firebase authentication.</p>
+                        <h2 className="text-2xl font-bold">Project Name: Glow Heaven (An ecommerce website)</h2>
+                        <p>Project Details: Showcased 24 makeup products across six brands with diverse offerings. Enabled secure payments, cart management, and user reviews for a seamless shopping experience.Developed admin tools for product and user role management using React, Express, and MongoDB.</p>
+                        <p className="font-bold">Used Technologies: React, Tailwind CSS, Daisyui, Tanstack query, Firebase authentication, Mongodb, Express.</p>
                         <div className="card-actions justify-end">
                             <motion.button 
                             initial={{ scale: 0}}
@@ -75,7 +75,7 @@ const Featured = () => {
                                 ease: 'easeIn',
                                 duration: 1
                             }}
-                            className="btn btn-secondary"><a href="https://heroic-semolina-7b2e02.netlify.app/">Click to Visit</a></motion.button>
+                            className="btn btn-secondary"><a href="https://glow-heaven.netlify.app/">Click to Visit</a></motion.button>
                         </div>
                     </div>
                 </motion.div>
@@ -91,7 +91,7 @@ const Featured = () => {
                     duration: 1
                 }}
                 className="card bg-base-100 shadow-xl">
-                    <figure><img src={morningNews} alt="website" /></figure>
+                    <figure><img className="w-full h-[200px]" src={morningNews} alt="website" /></figure>
                     <div className="card-body">
                         <h2 className="text-2xl font-bold">Project Name: The Morning Post (An online news portal)</h2>
                         <p>Project Details: This is my first team project. I designed the banner, international news section on home page, world news section, news details page, add news form and edit news form and implemented delete functionality for deleting a news. In this website, I implemented weather update and google translation feature.</p>

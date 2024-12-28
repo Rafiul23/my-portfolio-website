@@ -4,7 +4,7 @@ import {motion} from 'framer-motion';
 
 const ChooseMe = () => {
     return (
-        <div className="mt-5">
+        <div className="my-10 md:my-20">
             <SectionTitle
                 title='Why Choose Me'
             ></SectionTitle>

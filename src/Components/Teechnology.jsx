@@ -8,7 +8,7 @@ import nodeImg from '../assets/node-js-icon-1901x2048-mk1e13df.png';
 
 const Teechnology = () => {
     return (
-        <div>
+        <div className="my-10 md:my-20">
             <SectionTitle
             title='Core Technologies I know'
             ></SectionTitle>

@@ -13,7 +13,7 @@ const TechCard = ({ img, title, description }) => {
                 duration: 1
             }}
             className="card bg-base-100 shadow-xl">
-            <figure><img src={img} className='w-[100px] h-[100px] p-2' alt="Shoes" /></figure>
+            <figure><img src={img} className='w-[50px] h-[50px] p-2' alt="image" /></figure>
             <div className="card-body text-center">
                 <h2 className="font-bold text-alpha">{title}</h2>
                 <p>{description}</p>
