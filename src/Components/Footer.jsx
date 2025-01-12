@@ -39,7 +39,7 @@ const Footer = () => {
                     <a target="_blank" className="text-2xl hover:text-alpha" href="https://www.linkedin.com/in/md-rafiul-islam-645681112/"><FaLinkedin /></a>
                     <a target="_blank" className="text-2xl hover:text-alpha" href="https://github.com/rafiul23/"><FaGithub /></a>
                 </div>
-                <p className="mt-2">Copyright © 2024 - All right reserved</p>
+                <p className="mt-2">Copyright © 2025 - All right reserved</p>
             </motion.nav>
         </footer>
     );
