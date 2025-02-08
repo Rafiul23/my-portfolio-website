@@ -21,7 +21,7 @@ const Footer = () => {
                 <h2 className="font-bold md:text-3xl text-xl text-alpha">
                     Md. Rafiul Islam
                 </h2>
-                <p>I am available on</p>
+                <p className="pt-4">I am available on</p>
             </motion.aside>
             <motion.nav
             initial={{x: 100, scale: 0}}
