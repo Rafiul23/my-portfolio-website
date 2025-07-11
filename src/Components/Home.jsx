@@ -3,6 +3,7 @@ import Banner from "./Banner";
 import ChooseMe from "./ChooseMe";
 import Contact from "./Contact";
 import Featured from "./Featured";
+import Skills from "./Skills";
 import Teechnology from "./Teechnology";
 import { Element } from "react-scroll";
 
@@ -24,6 +25,9 @@ const Home = () => {
             </Element>
             <Element name="about">
             <About></About>
+            </Element>
+            <Element name="mySkills">
+            <Skills></Skills>
             </Element>
             <Element name="contact">
             <Contact></Contact>

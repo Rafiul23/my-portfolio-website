@@ -5,10 +5,11 @@ import Sticky from 'react-stickynode';
 const Navbar = () => {
   const navItems = [
     { to: "hero", label: "Home" },
-    { to: "coreSkill", label: "Core Skills" },
+    { to: "coreSkill", label: "Core Tech" },
     { to: "chooseMe", label: "Why Me" },
     { to: "features", label: "My Projects" },
     { to: "about", label: "About" },
+    { to: "mySkills", label: "My Skills" },
     { to: "contact", label: "Contact" },
   ];
 

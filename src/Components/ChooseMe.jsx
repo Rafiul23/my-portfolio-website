@@ -4,7 +4,7 @@ import {motion} from 'framer-motion';
 
 const ChooseMe = () => {
     return (
-        <div className="py-10 md:py-20 bg-gradient-to-tr from-[#0f0b19] to-[#142D55]">
+        <div className="py-10 md:py-20 bg-gradient-to-tl from-[#0f0b19] to-[#142D55]">
             <SectionTitle
                 title='Why Choose Me'
             ></SectionTitle>
