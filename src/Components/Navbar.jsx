@@ -66,7 +66,7 @@ const Navbar = () => {
     </>
 
     return (
-        <div className="navbar p-5 bg-slate-800 shadow-lg">
+        <div className="navbar p-5 bg-white">
             <div className="navbar-start">
                
                 <motion.a

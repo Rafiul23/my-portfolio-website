@@ -1,5 +1,5 @@
 import myPic from '../assets/rafiul1.png'
-import bannerPic from '../assets/artwork-7182495.jpg'
+import bannerPic from '../assets/bg-hero.jpg'
 import {motion} from 'framer-motion';
 
 const Banner = () => {
