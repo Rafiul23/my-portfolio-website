@@ -12,11 +12,11 @@ const TechCard = ({ img, title, description }) => {
                 ease: 'easeIn',
                 duration: 1
             }}
-            className="card bg-base-100 shadow-xl">
+            className="card bg-transparent shadow-xl">
             <figure><img src={img} className='w-[50px] h-[50px] p-2' alt="image" /></figure>
             <div className="card-body text-center">
-                <h2 className="font-bold text-alpha">{title}</h2>
-                <p>{description}</p>
+                <h2 className="font-bold text-white">{title}</h2>
+                <p className='text-white'>{description}</p>
             </div>
         </motion.div>
     );

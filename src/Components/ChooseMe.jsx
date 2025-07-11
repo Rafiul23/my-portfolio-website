@@ -1,17 +1,17 @@
 import SectionTitle from "./SectionTitle";
-import chooseme from '../assets/chooseme.png';
+import chooseme from '../assets/programming.jpg';
 import {motion} from 'framer-motion';
 
 const ChooseMe = () => {
     return (
-        <div className="my-10 md:my-20">
+        <div className="py-10 md:py-20 bg-gradient-to-tr from-[#0f0b19] to-[#142D55]">
             <SectionTitle
                 title='Why Choose Me'
             ></SectionTitle>
 
 
-            <div className="hero min-h-screen bg-gradient-to-r from-slate-700 to-slate-800 border border-alpha rounded-lg">
-                <div className="hero-content flex-col md:flex-row">
+            <div className="hero min-h-screen rounded-lg">
+                <div className="hero-content flex-col gap-10 md:flex-row">
                     <motion.img 
                     initial={{x: -100, opacity: 0}}
                     whileInView={{x: 0, opacity:1}}
@@ -22,7 +22,7 @@ const ChooseMe = () => {
                         ease: 'easeIn',
                         duration: 1
                     }}
-                    src={chooseme} className="md:w-1/2 w-full rounded-full " />
+                    src={chooseme} className="w-1/2 h-1/2 " />
                     <motion.div 
                     initial={{x: 100, opacity: 0}}
                     whileInView={{x: 0, opacity:1}}

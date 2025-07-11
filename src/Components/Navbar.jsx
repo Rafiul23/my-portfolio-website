@@ -15,9 +15,9 @@ const Navbar = () => {
             ease: 'easeIn',
             duration: 1
         }}
-        className="mr-4 text-alpha"><NavLink to='/'
+        className="mr-4 text-white"><NavLink to='/'
             className={({ isActive, isPending }) =>
-                isPending ? "pending" : isActive ? "font-bold underline " : ""
+                isPending ? "pending" : isActive ? "font-bold border-b-2 " : ""
             }
         >Home</NavLink></motion.li>
         <motion.li 
@@ -30,9 +30,9 @@ const Navbar = () => {
             ease: 'easeIn',
             duration: 1
         }}
-        className="mr-4 text-alpha"><NavLink to='/about'
+        className="mr-4 text-white"><NavLink to='/about'
             className={({ isActive, isPending }) =>
-                isPending ? "pending" : isActive ? "font-bold underline " : ""
+                isPending ? "pending" : isActive ? "font-bold border-b-2" : ""
             }
         >About</NavLink></motion.li>
         
@@ -57,16 +57,16 @@ const Navbar = () => {
             ease: 'easeIn',
             duration: 1
         }}
-        className=" text-alpha"><NavLink to='/contact'
+        className=" text-white"><NavLink to='/contact'
             className={({ isActive, isPending }) =>
-                isPending ? "pending" : isActive ? "font-bold underline " : ""
+                isPending ? "pending" : isActive ? "font-bold border-b-2 " : ""
             }
         >Contact</NavLink></motion.li>
 
     </>
 
     return (
-        <div className="navbar p-5 bg-white">
+        <div className="navbar p-8 bg-[#0F0B19]">
             <div className="navbar-start">
                
                 <motion.a
@@ -79,7 +79,7 @@ const Navbar = () => {
                     ease: 'easeIn',
                     duration: 1
                 }}
-                className="text-alpha font-bold lg:text-3xl md:text-xl text-lg">Md. Rafiul Islam</motion.a>
+                className="text-white font-bold lg:text-3xl md:text-xl text-lg">Md. Rafiul Islam</motion.a>
             </div>
             <div className="navbar-center hidden lg:flex">
 

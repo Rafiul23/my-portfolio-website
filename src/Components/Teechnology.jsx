@@ -2,13 +2,13 @@ import SectionTitle from "./SectionTitle";
 import TechCard from "./TechCard";
 import reactImg from '../assets/react-logo.png';
 import mongodbImg from '../assets/MongoDB-Emblem.jpg';
-import expressImg from '../assets/Express-clothing-retailer-Logo.png';
+import expressImg from '../assets/express.png';
 import nodeImg from '../assets/node-js-icon-1901x2048-mk1e13df.png'; 
 
 
 const Teechnology = () => {
     return (
-        <div className="my-10 md:my-20">
+        <div className="py-10 md:py-20 bg-gradient-to-br from-[#0f0b19] to-[#142D55]">
             <SectionTitle
             title='Core Technologies I know'
             ></SectionTitle>
