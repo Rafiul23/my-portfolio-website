@@ -45,7 +45,7 @@ const Banner = () => {
                         ease: 'easeIn',
                         duration: 1
                     }}
-                    className="btn text-white bg-[#217389]"><a href='md_rafiul_islam_resume.pdf' download>Download my Resume</a></motion.button>
+                    className="btn text-white bg-[#217389] hover:bg-[#3ecef6]"><a href='md_rafiul_islam_resume.pdf' download>Download my Resume</a></motion.button>
                 </motion.div>
             </div>
         </div>
