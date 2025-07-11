@@ -37,18 +37,15 @@ const About = () => {
             className="md:w-1/2 w-full p-4 space-y-2"
           >
             <h1 className="lg:text-5xl md:text-3xl text-xl text-alpha font-bold">
-              Name: Md. Rafiul Islam
+              I am Md. Rafiul Islam
             </h1>
             <p className="text-xl  text-alpha">
-              Objective: To work as a Front End Developer in any foreign or
-              local company.{" "}
+            Website Designer & Developer | Specialized in Medical, Hospital & Restaurant Websites | Responsive, SEO-Friendly, High-Converting Designs
             </p>
             <p className="text-xl text-white">
-              Bio: I am a MERN stack web developer. I have learned HTML, CSS,
-              Javascript, Tailwind CSS, Daisyui, React and Next for front end. I
-              have learned Mongodb and Express for back end development.
+              About Me: I'm a web developer specializing in both code and no-code solutions. I build modern, responsive front-end interfaces using HTML, CSS, JavaScript, Tailwind CSS, DaisyUI, React, and Next.js. On the back end, I'm proficient in MongoDB and Express.js. Additionally, I have expertise in no-code platforms like Wix and Webflow, allowing me to deliver flexible, scalable websites tailored to any business need.
             </p>
-            <p className="text-alpha  font-semibold">
+            <p className="text-alpha text-xl font-semibold">
               Education: Completed BSc. in Civil Engineering from Military
               Institute of science and Technology.
             </p>

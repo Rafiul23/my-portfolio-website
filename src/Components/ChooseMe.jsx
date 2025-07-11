@@ -36,14 +36,15 @@ const ChooseMe = () => {
                     className="p-4 md:w-1/2 w-full">
                         
                         <ul className="text-alpha font-semibold space-y-3 text-lg py-4 list-disc">
-                            <li className="">Proficient in HTML5, CSS3, JavaScript (ES6+)</li>
-                            <li className="">Proficient in CSS framework like Tailwind css and it's component library Daisyui</li>
-                            <li className="">Proficient in front-end framework like React</li>
-                            <li className="">Responsive web design and mobile optimization</li>
-                            <li className="">Version control with Git/GitHub</li>
-                            <li className="">Familiarity with RESTful APIs and JSON</li>
-                            <li className="">Have primary knowledge on Mongodb and Express js.</li>
-
+                            <li>Proficient in HTML5, CSS3, JavaScript (ES6+)</li>
+                            <li>Proficient in CSS framework like Tailwind css and it's component library Daisyui</li>
+                            <li>Proficient in front-end framework like React</li>
+                            <li>Responsive web design and mobile optimization</li>
+                            <li>Version control with Git/GitHub</li>
+                            <li>Familiarity with RESTful APIs and JSON</li>
+                            <li>Database management with Mongodb</li>
+                            <li>Develop api with Express and Node</li>
+                            <li>Design website by Wix and Webflow</li>
                         </ul>
 
                     </motion.div>
