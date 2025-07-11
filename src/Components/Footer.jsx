@@ -5,7 +5,7 @@ import {motion} from 'framer-motion';
 
 const Footer = () => {
     return (
-        <footer className="footer footer-center p-10 bg-slate-800 text-primary-content">
+        <footer className="footer footer-center p-10 bg-[#010729] text-primary-content">
             <motion.aside
             initial={{x: -100, scale: 0}}
             whileInView={{x: 0, scale:1}}
