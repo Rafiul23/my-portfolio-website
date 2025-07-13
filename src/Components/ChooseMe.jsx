@@ -37,12 +37,13 @@ const ChooseMe = () => {
                         
                         <ul className="text-alpha font-semibold space-y-3 text-lg py-4 list-disc">
                             <li>Proficient in HTML5, CSS3, JavaScript (ES6+)</li>
-                            <li>Proficient in CSS framework like Tailwind css and it's component library Daisyui</li>
-                            <li>Proficient in front-end framework like React</li>
+                            <li>Expert at CSS framework like Tailwind css and it's component library Daisyui</li>
+                            <li>Specialist in front-end framework like React and Next JS</li>
                             <li>Responsive web design and mobile optimization</li>
                             <li>Version control with Git/GitHub</li>
                             <li>Familiarity with RESTful APIs and JSON</li>
                             <li>Database management with Mongodb</li>
+                            <li>State management with Tanstack Quary</li>
                             <li>Develop api with Express and Node</li>
                             <li>Design website by Wix and Webflow</li>
                         </ul>

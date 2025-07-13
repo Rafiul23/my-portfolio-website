@@ -73,7 +73,7 @@ const Contact = () => {
             className="lg:w-1/2 w-full"
           >
             <form ref={form} onSubmit={handleMessage}>
-              <div className="flex max-lg:flex-col gap-5">
+              <div className="flex max-md:flex-col gap-5">
                 <div className="w-full">
                   <h2 className="text-white font-bold text-xl ">Your Name: </h2>
                   <input

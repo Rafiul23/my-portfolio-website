@@ -47,7 +47,7 @@ const About = () => {
             </p>
             <p className="text-alpha text-xl font-semibold">
               Education: Completed BSc. in Civil Engineering from Military
-              Institute of science and Technology.
+              Institute of Science and Technology.
             </p>
           </motion.div>
         </div>
