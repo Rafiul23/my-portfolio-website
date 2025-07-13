@@ -4,7 +4,7 @@ import {motion} from 'framer-motion';
 
 const Banner = () => {
     return (
-        <div className="min-h-[400px] border" style={{
+        <div className="min-h-[400px]" style={{
             backgroundImage: `url(${bannerPic})`
         }}>
             <div className="my-[100px] flex items-center flex-col md:flex-row-reverse">
@@ -19,7 +19,7 @@ const Banner = () => {
                 ease: 'easeIn',
                 duration: 1
             }}
-               src={myPic} className="lg:w-[400px] lg:h-[400px] md:w-[300px] md:h-[300px] w-[200px] h-[200px] p-1 rounded-full border bg-[#47C7F8]" />
+               src={myPic} className="lg:w-[400px] lg:h-[400px] md:w-[300px] md:h-[300px] w-[200px] h-[200px] p-1 rounded-full bg-[#47C7F8]" />
                </div>
                 <motion.div
                 initial={{x: 100, opacity: 0}}
