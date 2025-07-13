@@ -31,7 +31,7 @@ const Banner = () => {
                     ease: 'easeIn',
                     duration: 1
                 }}
-                className='md:w-1/2 max-md:text-center max-md:pt-5 w-full pl-10'>
+                className='md:w-1/2 max-md:text-center max-md:pt-5 w-full md:pl-10 px-2'>
                     <h1 className="lg:text-5xl md:text-3xl text-xl pt-2 text-white font-bold">Hi there!</h1>
                     <h1 className="lg:text-5xl md:text-3xl text-xl pt-2 text-white font-bold">I am Rafiul</h1>
                     <p className="py-6 lg:text-3xl md:text-2xl text-xl font-bold text-white">MERN Stack Web Developer | Wix Developer | Webflow Developer</p>
