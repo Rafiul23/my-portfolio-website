@@ -46,7 +46,7 @@ const Contact = () => {
     <div className="py-10 md:py-20 bg-gradient-to-bl from-[#0f0b19] to-[#142D55]">
       <SectionTitle title="Contact Me"></SectionTitle>
       <div className="hero min-h-screen">
-        <div className="hero-content flex-col md:flex-row-reverse">
+        <div className="hero-content flex-col lg:flex-row-reverse">
           <motion.img
             initial={{ x: -50, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
@@ -58,7 +58,7 @@ const Contact = () => {
               duration: 1,
             }}
             src={contact}
-            className="md:w-1/2 w-full rounded-lg shadow-xl"
+            className="lg:w-1/2 w-full rounded-lg shadow-xl"
           />
           <motion.div
             initial={{ x: 50, opacity: 0 }}
@@ -70,7 +70,7 @@ const Contact = () => {
               ease: "easeIn",
               duration: 1,
             }}
-            className="md:w-1/2 w-full"
+            className="lg:w-1/2 w-full"
           >
             <form ref={form} onSubmit={handleMessage}>
               <div className="flex gap-10">
