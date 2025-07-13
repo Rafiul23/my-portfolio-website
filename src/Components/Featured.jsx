@@ -69,7 +69,7 @@ const Featured = () => {
                     ease: "easeIn",
                     duration: 1,
                   }}
-                  className="btn text-white bg-[#217389] hover:bg-[#3ecef6]"
+                  className="btn text-white bg-[#217389] hover:bg-[#1a5261]"
                 >
                   <a href="https://job-hunter-globe.vercel.app/">
                     Click to Visit
@@ -134,7 +134,7 @@ const Featured = () => {
                                 ease: 'easeIn',
                                 duration: 1
                             }}
-                            className="btn text-white bg-[#217389] hover:bg-[#3ecef6]"><a href="https://glow-heaven.netlify.app/">Click to Visit</a></motion.button>
+                            className="btn text-white bg-[#217389] hover:bg-[#1a5261]"><a href="https://glow-heaven.netlify.app/">Click to Visit</a></motion.button>
                         </div>
                     </div>
           </motion.div>

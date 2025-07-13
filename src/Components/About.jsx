@@ -21,7 +21,7 @@ const About = () => {
                 duration: 1,
               }}
               src={myPic}
-              className="lg:w-[400px] lg:h-[400px] md:w-[300px] md:h-[300px] w-[200px] h-[200px] rounded-full shadow-2xl"
+              className="lg:w-[400px] lg:h-[400px] md:w-[300px] md:h-[300px] w-[200px] h-[200px] rounded-full shadow-2xl bg-[#47C7F8]"
             />
           </div>
           <motion.div
@@ -34,10 +34,10 @@ const About = () => {
               ease: "easeIn",
               duration: 1,
             }}
-            className="md:w-1/2 w-full p-4 space-y-2"
+            className="md:w-1/2 w-full p-4 space-y-5"
           >
             <h1 className="lg:text-5xl md:text-3xl text-xl text-alpha font-bold">
-              I am Md. Rafiul Islam
+               Md. Rafiul Islam
             </h1>
             <p className="text-xl  text-alpha">
             Website Designer & Developer | Specialized in Medical, Hospital & Restaurant Websites | Responsive, SEO-Friendly, High-Converting Designs
