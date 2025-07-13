@@ -4,10 +4,10 @@ import {motion} from 'framer-motion';
 
 const Banner = () => {
     return (
-        <div className="min-h-[400px]" style={{
+        <div className="min-h-[600px]" style={{
             backgroundImage: `url(${bannerPic})`
         }}>
-            <div className="my-[100px] flex items-center flex-col md:flex-row-reverse">
+            <div className="py-[100px] flex items-center flex-col md:flex-row-reverse">
                <div className='w-1/2 flex justify-center items-center'>
                <motion.img
                initial={{x: -100, opacity: 0}}
