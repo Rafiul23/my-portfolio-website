@@ -19,7 +19,7 @@ const Banner = () => {
                 ease: 'easeIn',
                 duration: 1
             }}
-               src={myPic} className="md:w-[300px] md:h-[300px] h-[200px] w-[200px] p-1 rounded-full border bg-[#47C7F8]" />
+               src={myPic} className="lg:w-[400px] lg:h-[400px] md:w-[300px] md:h-[300px] w-[200px] h-[200px] p-1 rounded-full border bg-[#47C7F8]" />
                </div>
                 <motion.div
                 initial={{x: 100, opacity: 0}}
@@ -33,7 +33,7 @@ const Banner = () => {
                 }}
                 className='md:w-1/2 max-md:text-center max-md:pt-5 w-full md:pl-10 px-2'>
                     <h1 className="lg:text-5xl md:text-3xl text-xl pt-2 text-white font-bold">Hi there!</h1>
-                    <h1 className="lg:text-5xl md:text-3xl text-xl pt-2 text-white font-bold">I am Rafiul</h1>
+                    <h1 className="lg:text-5xl md:text-4xl text-3xl pt-2 text-white font-bold">I am Rafiul</h1>
                     <p className="py-6 lg:text-3xl md:text-2xl text-xl font-bold text-white">MERN Stack Web Developer | Wix Developer | Webflow Developer</p>
                     <motion.button 
                     initial={{x: 0, scale: 0}}

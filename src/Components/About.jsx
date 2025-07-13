@@ -21,7 +21,7 @@ const About = () => {
                 duration: 1,
               }}
               src={myPic}
-              className="lg:w-[400px] lg:h-[400px] md:w-[300px] md:h-[300px] w-[200px] h-[200px] rounded-full shadow-2xl bg-[#2f83a4]"
+              className="lg:w-[400px] lg:h-[400px] md:w-[300px] md:h-[300px] w-[200px] h-[200px] p-1 rounded-full shadow-2xl bg-[#2f83a4]"
             />
           </div>
           <motion.div
