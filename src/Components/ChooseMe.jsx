@@ -11,7 +11,7 @@ const ChooseMe = () => {
 
 
             <div className="hero min-h-screen rounded-lg">
-                <div className="hero-content flex-col gap-10 md:flex-row">
+                <div className="hero-content flex-col gap-10 lg:flex-row">
                     <motion.img 
                     initial={{x: -100, opacity: 0}}
                     whileInView={{x: 0, opacity:1}}
@@ -22,7 +22,7 @@ const ChooseMe = () => {
                         ease: 'easeIn',
                         duration: 1
                     }}
-                    src={chooseme} className="w-1/2 h-1/2 " />
+                    src={chooseme} className="lg:w-1/2 lg:h-1/2 w-full h-full" />
                     <motion.div 
                     initial={{x: 100, opacity: 0}}
                     whileInView={{x: 0, opacity:1}}
@@ -33,7 +33,7 @@ const ChooseMe = () => {
                         ease: 'easeIn',
                         duration: 1
                     }}
-                    className="p-4 md:w-1/2 w-full">
+                    className="p-4 lg:w-1/2 w-full">
                         
                         <ul className="text-alpha font-semibold space-y-3 text-lg py-4 list-disc">
                             <li>Proficient in HTML5, CSS3, JavaScript (ES6+)</li>
