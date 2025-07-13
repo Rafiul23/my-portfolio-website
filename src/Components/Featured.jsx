@@ -10,7 +10,7 @@ const Featured = () => {
       <SectionTitle title="My Featured Projects"></SectionTitle>
 
       <div className="hero min-h-screen rounded-lg">
-        <div className="hero-content flex-col gap-5 md:flex-row">
+        <div className="flex mx-5 items-center flex-col gap-5 lg:flex-row">
           <motion.img
             initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
@@ -22,7 +22,7 @@ const Featured = () => {
               duration: 1,
             }}
             src={jobHunter}
-            className="w-1/2 h-1/2 "
+            className="lg:w-1/2 lg:h-1/2 w-full h-full"
           />
           <motion.div
             initial={{ x: 100, opacity: 0 }}
@@ -34,7 +34,7 @@ const Featured = () => {
               ease: "easeIn",
               duration: 1,
             }}
-            className="p-4 md:w-1/2 w-full"
+            className="lg:w-1/2 w-full"
           >
             <div className="card-body text-white">
               <h2 className="text-2xl font-bold">
@@ -43,12 +43,12 @@ const Featured = () => {
 
               <p>
                 <span className="font-bold">Project Details:</span> 
-                <ul>
-                    <li> 1. Managed 20+ job categories with advanced search
+                <ul className="font-semibold space-y-3 ml-4 text-lg py-4 list-decimal">
+                    <li> Managed 20+ job categories with advanced search
                     and filtering options. </li>
-                    <li> 2. Enabled resume submissions and role-based
+                    <li> Enabled resume submissions and role-based
                     access control for users. </li>
-                    <li> 3. Built admin tools for job and user
+                    <li> Built admin tools for job and user
                     role management using NextAuth.</li>
                 </ul>
                 
@@ -57,7 +57,7 @@ const Featured = () => {
                 Used Technologies: Next js, Tailwind, Daisyui, Next Auth,
                 Mongodb, Express.
               </p>
-              <div className="card-actions justify-end">
+              <div className="card-actions my-4 justify-center">
                 <motion.button
                   initial={{ scale: 0 }}
                   whileInView={{ scale: 1 }}
@@ -84,7 +84,7 @@ const Featured = () => {
       
 
       <div className="hero min-h-screen rounded-lg">
-        <div className="hero-content flex-col gap-5 md:flex-row">
+        <div className="flex mx-5 items-center flex-col gap-5 lg:flex-row">
           <motion.img
             initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
@@ -96,7 +96,7 @@ const Featured = () => {
               duration: 1,
             }}
             src={glowHeaven}
-            className="w-1/2 h-1/2 "
+            className="lg:w-1/2 lg:h-1/2 w-full h-full"
           />
           <motion.div
             initial={{ x: 100, opacity: 0 }}
@@ -108,21 +108,21 @@ const Featured = () => {
               ease: "easeIn",
               duration: 1,
             }}
-            className="p-4 md:w-1/2 w-full"
+            className="lg:w-1/2 w-full"
           >
              <div className="card-body text-white">
                         <h2 className="text-2xl font-bold">Project Name: Glow Heaven (An ecommerce website)</h2>
                         <p> <span className="font-bold">Project Details:</span> 
-                            <ul>
-                                <li> 1. Showcased 24 makeup products across six brands with diverse offerings.</li>
-                                <li> 2. Enabled secure payments, cart management, and user reviews for a seamless shopping experience.</li>
-                                <li> 3. Developed admin tools for product and user role management using React, Express, and MongoDB.</li>
+                            <ul className="font-semibold space-y-3 ml-4 text-lg py-4 list-decimal">
+                                <li> Showcased 24 makeup products across six brands with diverse offerings.</li>
+                                <li> Enabled secure payments, cart management, and user reviews for a seamless shopping experience.</li>
+                                <li> Developed admin tools for product and user role management using React, Express, and MongoDB.</li>
                             </ul>
                             
                              
                              </p>
                         <p className="font-bold">Used Technologies: React, Tailwind CSS, Daisyui, Tanstack query, Firebase authentication, Mongodb, Express.</p>
-                        <div className="card-actions justify-end">
+                        <div className="card-actions my-4 justify-center">
                             <motion.button 
                             initial={{ scale: 0}}
                             whileInView={{ scale:1}}
