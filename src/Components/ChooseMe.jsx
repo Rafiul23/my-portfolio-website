@@ -37,7 +37,7 @@ const ChooseMe = () => {
                         
                         <ul className="text-alpha font-semibold space-y-3 text-lg py-4 list-disc">
                             <li>Proficient in HTML5, CSS3, JavaScript (ES6+)</li>
-                            <li>Expert at CSS framework like Tailwind css and it's component library Daisyui</li>
+                            <li>Expert at CSS framework like Tailwind CSS and it's component library Daisy UI</li>
                             <li>Specialist in front-end framework like React and Next JS</li>
                             <li>Responsive web design and mobile optimization</li>
                             <li>Version control with Git/GitHub</li>
