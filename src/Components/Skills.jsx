@@ -10,6 +10,9 @@ import express from "../assets/express.png";
 import node from "../assets/node-js-icon-454x512-nztofx17.png";
 import next from "../assets/next.jpg";
 import ts from "../assets/ts.png";
+import wix from '../assets/wix.png';
+import webflow from '../assets/icons8-webflow-100.png';
+import redux from '../assets/redux_logo.png';
 import SectionTitle from "./SectionTitle";
 import { motion } from 'framer-motion';
 
@@ -29,6 +32,9 @@ const Skills = () => {
         {item: 10, skillSrc: node},
         {item: 11, skillSrc: next},
         {item: 12, skillSrc: ts},
+        {item: 13, skillSrc: redux},
+        {item: 14, skillSrc: wix},
+        {item: 15, skillSrc: webflow},
     ]
 
   return (
